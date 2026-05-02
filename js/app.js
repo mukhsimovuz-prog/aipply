@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 errorMsg.textContent = "Xato: " + error.message;
                 errorMsg.classList.remove('hidden');
             } else {
-                alert("Muvaffaqiyatli kirdingiz!");
+                window.location.href = 'bosh-sahifa.html';
             }
         });
     }
